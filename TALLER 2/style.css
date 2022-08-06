@@ -1,0 +1,20 @@
+:root {
+    margin: 1% 10%;
+}
+
+/*Excerise boxes*/
+
+.excerise-container{
+    padding: 10px 30px;
+}
+
+section {
+    background-color: rgba(202, 202, 235, 0.582);
+    border: none;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 5px;
+}

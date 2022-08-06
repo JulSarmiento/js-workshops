@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Doggie Adoptions</title>
+</head>
+<body>
+  <header>
+    <h1>Adopción de Mascotas</h1>
+  </header>
+
+  <main>
+    <p>Una perrera municipal tiene cientos de perros para dar en adopción. El primer paso es realizar un análisis de las características que pueden tener los perros.</p>
+
+    <section>
+      <ul class="steps-box">
+        <li>Crea una clase que contenga las características que analizaste tiene un perro. Si tu analisis no contempló el estado de adopción, añade esta propiedad en tu clase: “En adopción”, “Proceso de adopción” o “Adoptado”.</li>
+        <li>Crea 2 métodos en tu clase: “Modificar el estado de la adopción”, “Informar el estado de la adopción”.</li>
+        <li>Crea varios objetos donde se instancie a la clase. Verifica el correcto funcionamiento de los 2 métodos para manipular el proceso de adopción. ejemplo: const perro1 = new Perros('Toby', '8', 'rojo', ...);</li>
+        <li>Crea una variable(o constante) donde definas esas propiedades que analizaste tiene el perro (en acamica te sugiere usar un prompt donde le solicitas al usuario está info). Una vez que tengas los datos, crea un objeto desde tu clase. Almacena este nuevo objeto en un array. Cada posición del array contendrá un objeto, así: const arrayPerros = [ objetoPerro1, objetoPerro12, objetoPerro3, ...];</li>
+        <li>Podrias usar el DOM donde en una caja de texto digitas esa info y al presionar en un boton puedas mostrar el objeto que se crea como resultado de la data que el usuario digita.</li>
+        <li>Genera estos 4 reportes en un console.log o document.write, donde muestres: “Todos los perros”, “Todos los perros en adopción”, “Todos los perros en proceso de adopción”, “Todos los perros adoptados”.</li>
+      </ul>
+    </section>
+
+    <div class="buttons-box">
+      <button id="new-dog">Añadir nuevo perrito.</button>
+      <button id="show-all-dogs">Mostrar todos lo perritos.</button>
+      <button id="show-in-adoption-dogs">Mostrar perritos en adopcion.</button>
+      <button id="show-in-process-dogs">Mostrar perritos en procecso de adopcion.</button>
+      <button id="show-adopted-dogs">Mostrar perritos adoptados.</button>
+    </div>
+
+    <section>
+      <div id="result">
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
